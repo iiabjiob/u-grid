@@ -2,7 +2,10 @@
 
 <template>
   <div>
-
+    <h1>Hello World</h1>
+    <div class="app-body">
+      <RouterView />
+    </div>
   </div>
 </template>
 
