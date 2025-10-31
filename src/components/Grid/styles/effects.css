@@ -1,0 +1,44 @@
+.cell-flash-copy {
+  animation: cell-flash-copy-anim 0.5s;
+}
+
+@keyframes cell-flash-copy-anim {
+  0% { background-color: #e0f7fa; }
+  100% { background-color: inherit; }
+}
+
+.cell-flash-paste {
+  animation: cell-flash-paste-anim 0.5s;
+}
+
+@keyframes cell-flash-paste-anim {
+  0% { background-color: #ffe082; }
+  100% { background-color: inherit; }
+}
+
+.cell-flash-fill {
+  animation: cell-flash-fill-anim 0.5s;
+}
+
+@keyframes cell-flash-fill-anim {
+  0% { background-color: #c8e6c9; }
+  100% { background-color: inherit; }
+}
+
+.cell-flash-undo {
+  animation: cell-flash-undo-anim 0.5s;
+}
+
+@keyframes cell-flash-undo-anim {
+  0% { background-color: #dbeafe; }
+  100% { background-color: inherit; }
+}
+
+.cell-flash-redo {
+  animation: cell-flash-redo-anim 0.5s;
+}
+
+@keyframes cell-flash-redo-anim {
+  0% { background-color: #fde2e2; }
+  100% { background-color: inherit; }
+}
